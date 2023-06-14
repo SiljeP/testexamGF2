@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: var(--body-font);
+}
+
+.site__header{
+    background-color: var(--primary-color);
+    
+}
+.site__nav{
+display: flex;
+
+
+}
+
+.site__navLinks{
+    color: white;
+    list-style: none;
+}

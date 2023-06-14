@@ -1,0 +1,18 @@
+:root{
+
+    /* Colors */
+    --primary-color:#3B4C5C;
+    --secondary-color:#75D1FF;
+    --accent-color-dark: #262F38;
+    --accent-color-light: #F3F4F6;
+    --highlight-color:#FFD600;
+
+    --hover-color: #E64B3B;
+    --icon-color: #92C880;
+    /* Fonts */
+    --body-font: 'Open Sans', sans-serif;
+    --highlights-font: ;
+
+
+
+}
