@@ -1,0 +1,163 @@
+footer {
+    background-color: var(--accent-color-dark);
+    display: flex;
+
+
+}
+
+.footer__contactTitle {
+    color: white;
+    font-weight: 100;
+    padding: 3em 0 0 2em;
+}
+
+.footer__contactText {
+    color: rgb(166, 166, 166);
+    width: 80%;
+    padding: 0 3em;
+    margin: 0;
+}
+
+.footer__contactIcon {
+    color: var(--icon-color);
+    font-family: var(--icon-font);
+    padding: 2em 0 0 4em;
+
+    font-size: x-large;
+    height:20px;
+    width:20px;
+}
+
+.footer__contactIconTextContainer{
+padding-top:.5em;
+display:flex;
+flex-direction: column;
+
+}
+
+.footer__contactIconTextContainer:last-child{
+   margin-bottom: 4em;
+}
+
+.footer__contactAdress,
+.footer__contactNumber,
+.footer__contactEmail {
+    color: rgb(222, 221, 221);
+    padding: 0 0 0 8em;
+
+    display: inline;
+}
+
+.footer__contactInfo {
+    color: rgb(166, 166, 166);
+    padding: 0 0 0 8em;
+    display: inline;
+}
+
+
+
+/* contact form down below */
+
+.footer__formContainer {
+    background-color: var(--primary-color);
+    margin: 3em;
+    width: 80vw;
+}
+
+.footer__formText{
+    color: white;
+    padding: 3em 0 0 2.9em;
+}
+
+.input__label {
+    display: flex;
+    font-size: large;
+    padding: 0 .5em;
+    align-items: center;
+    margin: 0 .5em;
+    justify-content: center;
+ 
+
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    font-family: var(--body-font);
+
+}
+
+
+.form__input {
+    width: 90%;
+    margin: 0 2em;
+    padding: .5em;
+    font-size: medium;
+    background-color: var(--primary-color);
+    border: solid rgb(166, 166, 166);
+    
+
+    font-family: var(--body-font);
+}
+
+.form__input::placeholder{
+    color: rgb(185, 185, 185);
+}
+
+.form__submit {
+    margin: auto;
+}
+
+.form__submitButton {
+
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    background-color: #465a6d;
+    border-style: none;
+
+    width: 32vw;
+    height: fit-content;
+    padding: 1em;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.form__submitButton:hover {
+
+    background-color: var(--accent-color-dark);
+    cursor: pointer;
+    color: var(--accent-color-light);
+}
+
+.form__message {
+    display: inline-block;
+    padding: 10px;
+    font-size: small;
+
+}
+
+.form__submitButtonIcon{
+    color: white;
+    font-family: var(--icon-font);
+}
+
+@media screen and (max-width: 1070px) {
+    .contact__article {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .input__label {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contact__form {
+        width: 100%;
+    }
+}

@@ -11,26 +11,176 @@
 
 <body>
     <header class="site__header">
-        <img src="./assets/images/Event Centrum Logo.png" alt="Event Cetrum logo">
-      <nav class="site__nav">
-        <menu>
-            <li class="site__navLinks">Forside</li>
-            <li class="site__navLinks">Fester</li>
-            <li class="site__navLinks">Firma events</li>
-            <li class="site__navLinks">Kontakt</li>
-        </menu>
-      </nav>
+        <a href="#"> <img class="site__headerImage" src="./assets/images/Event Centrum Logo.png"
+                alt="Event Cetrum logo"></a>
+        <nav class="site__nav">
+            <menu class="site__navMenu">
+                <a href="#" class="site__navLinks">
+                    <li class="site__navLinksItem">Forside</li>
+                </a>
+                <a href="#" class="site__navLinks">
+                    <li class="site__navLinksItem">Fester</li>
+                </a>
+                <a href="#" class="site__navLinks">
+                    <li class="site__navLinksItem">Firma events</li>
+                </a>
+                <a href="#" class="site__navLinks">
+                    <li class="site__navLinksItem">Kontakt</li>
+                </a>
+            </menu>
+        </nav>
     </header>
-
-
     <main>
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left is-hidden" >
+                <img src="./images/left.svg" alt="">
+            </button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide" >
+                        <img class="carousel__image" src="./images/slider1.jpg" alt="">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="./images/slider2.jpg" alt="">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="./images/slider3.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--right">
+                <img src="./images/right.svg" alt="">
+            </button>
+    
+    
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
+        </div>
+       
 
 
+
+        <section class="site__hero">
+            <img src="./assets/images/COLOURBOX2273321.jpg" alt="" class="site__heroImage">
+            <div class="site__heroTextContainer">
+                <h1 class="site__heroTitle">Teambuilding</h1>
+                <p class="site__heroSubTitle">Jagtanekdoter, bramfri råvarersnak og madlavning i det fri</p>
+                <p class="site__heroText">Med naturmanden Jørgen Skouboe og kokken Nikolaj Kirk fra det populærer
+                    tv-program "Nak og Æd"</p>
+                <a href="#">
+                    <p class="site__heroLink">Læs Mere</p>
+                </a>
+            </div>
+        </section>
+
+
+        <section class="site__otherEvents">
+            <h2 class="site__otherEventsTitle">Andre Events</h2>
+            <p class="site__otherEventsText">Enhver virksomhed er en unik sammensætning af mennesker, ressourcer og
+                udfordringer. Vi afholder gerne et indledende og uforpligtende møde, så vi kan imødekomme jeres behov
+                bedst muligt.</p>
+        </section>
+        <div class="site__cardsContainer">
+            <section class="site__cards">
+                <img src="./assets/images/konference.jpg" alt="proffesionelle folk der sidder i møde"
+                    class="site__cardsImage">
+                <h3 class="site__cardsText">Konferencer</h3>
+                <p class="site__cardsText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque
+                    fugit suscipit facere? </p>
+                <button class="site__cardsButton">Læs mere</button>
+            </section>
+            <section class="site__cards">
+                <img src="./assets/images/champagne.jpg" alt="Flere glas med champagne" class="site__cardsImage">
+                <h3 class="site__cardsText">Reception</h3>
+                <p class="site__cardsText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque
+                    fugit suscipit facere?</p>
+                <button class="site__cardsButton">Læs mere</button>
+            </section>
+            <section class="site__cards">
+                <img src="./assets/images/biergarten.jpg" alt="et skilt hvor der står Biergarten"
+                    class="site__cardsImage">
+                <h3 class="site__cardsText">Oktoberfest</h3>
+                <p class="site__cardsText">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <button class="site__cardsButton">Læs mere</button>
+            </section>
+            <section class="site__cards">
+                <img src="./assets/images/julefrokost.jpg" alt="Julekugler der hænger på et træ"
+                    class="site__cardsImage">
+                <h3 class="site__cardsText">Julefrokost</h3>
+                <p class="site__cardsText">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <button class="site__cardsButton">Læs mere</button>
+            </section>
+            <section class="site__cards">
+                <img src="./assets/images/middelalder.jpg" alt="En middelaldermand i fuld rustning"
+                    class="site__cardsImage">
+                <h3 class="site__cardsText">Middelalder</h3>
+                <p class="site__cardsText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos cumque
+                    fugit suscipit facere? </p>
+                <button class="site__cardsButton">Læs mere</button>
+            </section>
+            <section class="site__cards">
+                <img src="./assets/images/action.jpg"
+                    alt="En dame der gemmer sig bag en håndfuld pengesedler og har en pistol i hånden"
+                    class="site__cardsImage">
+                <h3 class="site__cardsText">Action</h3>
+                <p class="site__cardsText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                <button class="site__cardsButton">Læs mere</button>
+            </section>
+        </div>
     </main>
-
     <footer>
-
+        <section class="footer__contact">
+            <h1 class="footer__contactTitle">Kontakt os</h1>
+            <p class="footer__contactText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolores
+                repellendus sequi libero rerum dicta quasi minima eligendi mollitia minus?</p>
+            <section class="footer__contactIconTextContainer">
+                <span class="footer__contactIcon"></span>
+                <p class="footer__contactAdress">Adresse</p>
+                <p class="footer__contactInfo"> Adresse, Adressevej 42, 1234 Adresseby</p>
+                <span class="footer__contactIcon"></span>
+                <p class="footer__contactNumber">Ring til os på</p>
+                <p class="footer__contactInfo">+45 12345678</p>
+                <span class="footer__contactIcon"></span>
+                <p class="footer__contactEmail"> Skriv til os på</p>
+                <p class="footer__contactInfo">email@event-centrum.dk</p>
+            </section>
+        </section>
+        <section class="footer__formContainer">
+            <p class="footer__formText">Send os en besked</p>
+            <form class="contact__form" action="./thankyou.html" novalidate>
+                <section class="form__field">
+                    <label class="input__label">
+                        <input id="inputName" class="form__input" type="text" name="navn"
+                            placeholder="Skriv dit navn her" required>
+                    </label>
+                    <span class="form__message"></span>
+                </section>
+                <section class="form__field">
+                    <label class="input__label">
+                        <input id="inputEmail" class="form__input" type="email" name="email"
+                            placeholder="Skriv din email her" required>
+                    </label>
+                    <span class="form__message"></span>
+                </section>
+                <section class="form__field">
+                    <label class="input__label">
+                        <textarea class="form__input" placeholder="Skriv din besked her" required></textarea>
+                    </label>
+                    <span class="form__message"></span>
+                </section>
+                <section class="form__submit">
+                    <button class="form__submitButton" type="submit"> <span class="form__submitButtonIcon"></span> Send</button>
+                </section>
+            </form>
+        </section>
     </footer>
+
+    <script src="./assets/script/contact.js" defer></script>
+    <script src="./assets/script/thankyou.js" defer></script>
+    <script src="./carousel.js" defer></script>
 </body>
 
 </html>

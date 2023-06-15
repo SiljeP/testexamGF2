@@ -1,0 +1,41 @@
+.site__hero{
+    height: 70vh;
+} 
+
+.site__heroImage {
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    height: 500px;
+    z-index: 1;
+    
+}
+
+.site__heroTextContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    z-index: 3;
+    position: absolute;
+    align-items: center;
+    align-content: flex-start;
+    padding-left: 3em;
+    padding-top: 4em;
+    
+    width: fit-content;
+    height: fit-content;
+    
+}
+.site__heroTitle, .site__heroSubTitle, .site__heroText, .site__heroLink{
+    color: white;
+    font-weight: 300;
+    padding:1em;
+    background-color: rgba(180, 180, 180, 0.423);
+}
+
+ .site__heroLink{
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    
+}
